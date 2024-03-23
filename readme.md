@@ -95,6 +95,13 @@ $ !pip install Gunicorn
 # Run the app.py file using python which uses flask to integrate it with index.html file
 $ python app.py
 ```
+**Running the app.py file will start a local server which looks like:**
+
+![Input]("https://github.com/AkhilAjithkumar473/Customer-label-prediction/blob/main/Input.png")
+
+**The user has to input the data in the given fields and click on predict to get the output as shown in the image below:**
+
+![Output]("https://github.com/AkhilAjithkumar473/Customer-label-prediction/blob/main/output.png")
 
 ## 🤔 How to contribute
 
