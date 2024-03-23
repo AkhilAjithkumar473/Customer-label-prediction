@@ -1,4 +1,4 @@
-![Movie Recommender System](https://github.com/AkhilAjithkumar473/MRS-Akhil/blob/main/Homepage.png)
+![Customer label prediction](https://github.com/AkhilAjithkumar473/Customer-label-prediction/blob/main/Homepage.png)
 
 <h3 align="center">
   Customer label prediction
@@ -23,25 +23,57 @@
 
 ## 👨🏻‍💻 About the project
 
-<h1>Smart Movie Recommendation System</h1>
-    <p>This project implements an efficient <strong>movie recommendation system</strong> using data cleaning, preprocessing, and <strong>cosine similarity</strong>. By analyzing user behavior and movie attributes, the system generates personalized movie suggestions. The use of cosine similarity reduces computational complexity, ensuring accurate and relevant recommendations.</p>
-    <h2>Key Features:</h2>
-    <ul>
-        <li><strong>Data Cleaning and Preprocessing</strong>: Remove noise and transform raw data into a suitable format.</li>
-        <li><strong>Cosine Similarity</strong>: Efficiently compare movie vectors for similarity.</li>
-        <li><strong>Sentiment Analysis</strong>: Classify movie reviews as positive or negative.</li>
-        <li><strong>Personalized Recommendations</strong>: Provide tailored movie suggestions based on user preferences.</li>
-    </ul>
+# Customer Cluster Label Prediction Project
+
+## Objective
+The goal of this project is to segment customers based on their behavior and characteristics. We'll use clustering techniques to group similar customers together.
+
+## Data Preprocessing
+- **Exploratory Data Analysis (EDA)**: Understand the dataset's structure and characteristics.
+- **Data Loading**: Load the customer data.
+- **Data Cleaning**: Check for missing values and handle them if necessary.
+- **Feature Scaling**:
+  - Apply **Standard Scaler** to normalize features.
+  - Use a **Normalization Layer** to scale features to a similar range.
+
+## Clustering Algorithm
+- We'll use the **KNN algorithm** for customer segmentation.
+- The resulting clusters will provide insights for targeted marketing and product development.
+
+## Model Implementation
+- Train the KNN model on the preprocessed data.
+- Visualize the clusters to understand their characteristics.
+
+## Model Interpretation
+- Interpret the clusters to gain actionable insights.
+- Identify customer segments.
+
+## Web Application using Flask
+- Create a web application using **Flask**.
+- Implement an HTML and CSS interface for user interaction.
+- Deploy the model as a **pickle file** within the Flask app.
+
+## User Interaction
+- Users can input customer data via the web interface.
+- The Flask app will predict the customer's cluster label using the trained KNN model.
+
+## Output
+- The Flask app generates a response indicating the customer's cluster label.
+- The output is a **pickle file** containing the trained KMeans model.
+
+This project can be customized to other customer datasets, making it versatile for retail applications. 🛍️📊
+
 
 ## 🚀 Technologies
 
 Technologies that I used to develop this web client
 
 - Python
-- streamlit
+- Flask
 - pickle
 - pandas
 - scikit-learn
+- numpy
 
 ## 💻 Getting started
 
@@ -55,11 +87,12 @@ $ git clone https://github.com/AkhilAjithkumar473/Customer-label-prediction.git 
 
 ```bash
 # Install the dependencies
-$ !pip install streamlit
+$ !pip install Flask
+$ !pip install Gunicorn
 
-# Run the ipynb notebook to get similarity.pkl and movie_dict.pkl(recommended on jupyter notebook)
+# Run the ipynb notebook to get final_prediction.pkl(recommended on jupyter notebook)
 
-# Run the app.py file using python
+# Run the app.py file using python which uses flask to integrate it with index.html file
 $ python app.py
 ```
 
