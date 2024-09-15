@@ -19,7 +19,7 @@
 
 ## 👨🏻‍💻 About the project
 
-[Live Website](https://your-deployed-website-url.com) 🌐
+[Live Website](https://customer-label-prediction.onrender.com) 🌐
 
 # Customer Cluster Label Prediction Project
 
