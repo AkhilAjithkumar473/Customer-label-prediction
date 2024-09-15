@@ -6,10 +6,6 @@
 
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/AkhilAjithkumar473/Customer-label-prediction">
-
-  <a href="https://www.linkedin.com/in/akhil-ajithkumar-230b52220/">
-    <img alt="Made by" src="https://img.shields.io/badge/Made%20by-Akhil%20Ajithkumar-gree">
-  </a>
   
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/AkhilAjithkumar473/Customer-label-prediction">
 </p>
@@ -135,3 +131,4 @@ After your pull request is merged, you can delete your branch
 ---
 
 Made &nbsp;by Akhil Ajithkumar 👋 &nbsp;[See my linkedin](https://www.linkedin.com/in/akhil-ajithkumar-230b52220/)
+and Kabala Devi Rishitha 👋 &nbsp;[See my linkedin](http://www.linkedin.com/in/kabala-devi-rishitha-b8b150283)
